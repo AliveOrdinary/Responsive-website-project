@@ -1,0 +1,43 @@
+/**
+* ! style rules for sectionOne
+*/
+
+.sectionOne__left--text {
+    font-family: var(--font-2);
+    font-size: var(--body);
+    color: var(--color-white-75);
+}
+
+.sectionOne__left--btn {
+    margin-top: 20px;
+    align-self: start;
+}
+
+/**
+* ! style rules for sectionTwo
+*/
+
+.sectionTwo {
+    padding: 40px 0;
+    display: grid;
+    gap: 30px;
+}
+
+.sectionTwo__content--text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionTwo__logo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.sectionTwo__logo img {
+    justify-self: center;
+    align-self: center;
+}
+
+.sectionTwo__btn {
+    justify-self: center;
+}
